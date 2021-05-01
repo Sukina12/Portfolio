@@ -35,7 +35,7 @@ class SimpleFooter extends React.Component {
       <>
         <footer className=" footer">
           <Container>
-            <Row className=" row-grid align-items-center mb-5">
+            {/* <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
                   Thank you for supporting us!
@@ -102,7 +102,7 @@ class SimpleFooter extends React.Component {
                   Star on Github
                 </UncontrolledTooltip>
               </Col>
-            </Row>
+            </Row> */}
             <hr />
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
@@ -112,12 +112,12 @@ class SimpleFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Sukina Abu-Hammad
                   </a>
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -152,7 +152,7 @@ class SimpleFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
